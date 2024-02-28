@@ -2,7 +2,13 @@
 
   <header class="w-full sm:h-16 p-4 h-30 border-b md:border-gray-300 md:shadow-md md:fixed top-0 left-0 bg-white z-50">
     <nav class="mr-auto ml-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2" style="max-width: 1280px;">
-      <div class="font-bold text-xl">Joseph Jr.</div>
+      <div class="flex flex-row justify-start items-center gap-2">
+        <svg class="w-10 h-8 text-[#00b4d8]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M5 10.2c.6 0 1 .4 1 1v.2l6 3.5 6-3.5v-.2a1 1 0 1 1 2 0v.8c0 .4-.2.7-.5.9l-7 4a1 1 0 0 1-1 0l-7-4A1 1 0 0 1 4 12v-.8c0-.6.5-1 1-1Zm0 5c.6 0 1 .4 1 1v.2l6 3.4 6-3.4V16a1 1 0 1 1 2 0v.9c0 .3-.2.6-.5.8l-7 4a1 1 0 0 1-1 0l-7-4A1 1 0 0 1 4 17v-1c0-.5.4-1 1-1Z" clip-rule="evenodd"/>
+          <path d="M12.5 2.1a1 1 0 0 0-1 0l-7 4a1 1 0 0 0 0 1.8l7 4c.3.2.7.2 1 0l7-4a1 1 0 0 0 0-1.7l-7-4Z"/>
+        </svg>
+        <h3 class="font-bold text-xl">Joseph Jr.</h3>
+      </div>
       <div>
         <ul class="flex sm:flex-row">
           <li class="mr-5 font-medium"><a href="#about" class="hover:text-blue-800">About</a></li>
@@ -39,13 +45,13 @@
       <div class="md:w-1/4">
         <img src="../assets/profile1.jpg" alt="Profile Image" class="rounded-full mx-auto w-56 h-56 md:w-48 md:h-48 lg:w-64 lg:h-64 shadow-2xl">
       </div>
-      <div class="md:w-9/12 text-center">
+      <div class="md:w-9/12">
         <div class="relative flex flex-col w-full mx-auto">
           <div class="p-6">
-            <h5 class="block mb-2 text-4xl font-semibold leading-snug tracking-normal text-blue-800">
+            <h5 class="block mb-2 text-4xl font-semibold leading-snug tracking-normal text-blue-800 text-center">
               About Me
             </h5>
-            <p class="block text-base">
+            <p class="block text-base text-justify">
               Passionate and adaptive, I am a dedicated software engineer known for crafting innovative solutions and thriving in dynamic environments. 
               My love for coding goes beyond the lines of code, and I am committed to delivering excellence in every project. With a keen eye for detail 
               and a collaborative spirit, I work seamlessly in teams, bringing my adaptive mindset and passion for problem-solving to create impactful 
@@ -87,7 +93,7 @@
   </section>
 
   <section id="projects" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h5 v-motion-slide-visible-top class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Recent Projects</h5>
+    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Recent Projects</h5>
     
     <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
       <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
@@ -151,11 +157,11 @@
               are seamlessly posted online for future researchers' reference, fostering a collaborative and accessible academic environment.
             </p>
             <p class="text-sm font-semibold mt-5">
-              Tech used: Php, Ajax, Argon Bootstrap, Xampp, Mysql, Godaddy hosting service, CPanel, SMTP email integration, SSL Certificate
+              Tech used: Php, Ajax, Argon Bootstrap, Xampp, Mysql, Godaddy Hosting Service, CPanel, SMTP Email, SSL
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="https://github.com/josephjrdlc21/rikdo-dbms.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               View more
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -179,7 +185,7 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="https://github.com/josephjrdlc21/aoi-inspect.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               View more
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -229,7 +235,7 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="https://github.com/josephjrdlc21/auto-switch-circuit.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
               View more
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -245,7 +251,7 @@
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Contact</h5>
     <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded flex items-center justify-center">
       <div class="p-8">
-        <p class="text-center text-base">I have experienced building in building dynamic applications. <br>If you are interested in hiring me
+        <p class="text-center text-base">I have experienced in building dynamic applications. <br>If you are interested in hiring me
           for your projects.<br>Please use the form to get in touch.<br> 
         </p>
         <h3 class="text-xl font-semibold text-center mt-4">You can also find me on the following channel</h3>
