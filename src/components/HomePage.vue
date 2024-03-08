@@ -1,9 +1,9 @@
 <template>
 
-  <header class="w-full sm:h-16 p-4 h-30 border-b md:border-gray-300 md:shadow-md md:fixed top-0 left-0 bg-white z-50">
-    <nav class="mr-auto ml-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2" style="max-width: 1280px;">
+  <header class="w-full md:h-16 p-4 h-30 border-b md:border-gray-300 shadow-md md:fixed top-0 left-0 bg-white z-50">
+    <nav class="flex flex-col justify-center items-center mx-auto gap-2 md:flex-row md:justify-between" style="max-width: 1280px;">
       <div class="flex flex-row justify-start items-center gap-2">
-        <svg class="w-10 h-8 text-[#00b4d8]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+        <svg class="w-10 h-8 text-blue-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path fill-rule="evenodd" d="M5 10.2c.6 0 1 .4 1 1v.2l6 3.5 6-3.5v-.2a1 1 0 1 1 2 0v.8c0 .4-.2.7-.5.9l-7 4a1 1 0 0 1-1 0l-7-4A1 1 0 0 1 4 12v-.8c0-.6.5-1 1-1Zm0 5c.6 0 1 .4 1 1v.2l6 3.4 6-3.4V16a1 1 0 1 1 2 0v.9c0 .3-.2.6-.5.8l-7 4a1 1 0 0 1-1 0l-7-4A1 1 0 0 1 4 17v-1c0-.5.4-1 1-1Z" clip-rule="evenodd"/>
           <path d="M12.5 2.1a1 1 0 0 0-1 0l-7 4a1 1 0 0 0 0 1.8l7 4c.3.2.7.2 1 0l7-4a1 1 0 0 0 0-1.7l-7-4Z"/>
         </svg>
@@ -20,19 +20,19 @@
     </nav>
   </header>
 
-  <section class="h-auto lg:h-screen md:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mt-20 lg:mt-0" style="max-width: 1280px;">
-    <div class="flex flex-col md:flex-row justify-between max-w-2xl md:max-w-4xl lg:max-w-6xl gap-3">
+  <section id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mt-2 md:mt-40 lg:mt-0" style="max-width: 1280px;">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="md:w-1/2 md:order-1">
-        <img src="../assets/profile4.png" alt="Profile Image" class="rounded-lg mx-auto w-72 h-72 md:w-96 md:h-96">
+        <img src="../assets/profile5.png" alt="Profile Image" class="rounded-lg mx-auto h-80 md:w-full md:h-full z-100">
       </div>
       <div class="md:w-1/2 text-center md:text-left">
-        <p class="text-xl font-medium mb-4">Hello, <span class="text-blue-800">I'm</span></p>
-        <h1 class="text-4xl font-bold text-blue-800 mb-5">Joseph Dela Cruz Jr.</h1>
-        <p class="text-2xl mb-5 font-semibold">Software Engineer</p>
-        <p class="text-xl text-justify leading-8">I'm a skilled and creative developer with a passion and dedication in 
+        <p class="text-lg md:text-xl font-medium mb-4">Hello, <span class="text-blue-800">I'm</span></p>
+        <h1 class="text-2xl md:text-4xl font-bold text-blue-800 mb-5">Joseph Dela Cruz Jr.</h1>
+        <p class="text-xl md:text-2xl mb-5 font-semibold">Software Engineer</p>
+        <p class="text-base md:text-xl text-justify leading-8">I'm a skilled and creative developer with a passion and dedication in 
           creating fully functional applications, responsive and user-friendly. I've worked on diverse projects ranging from web applications, 
-          desktop applications, AI systems, and Arduino.</p>
-        <div class="flex flex-col md:flex-row mt-5">
+          desktop applications, AI systems, and arduino.</p>
+        <div class="flex flex-col md:flex-row mt-5 lg:mt-10">
           <a href="#contact" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0 md:mr-2">Get in touch</a>
           <a href="resume.pdf" target="_blank" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Resume</a>
         </div>
@@ -40,18 +40,18 @@
     </div>
   </section>
 
-  <section id="about" class="h-auto lg:h-72 md:h-72 mx-auto px-4 mt-10 lg:mt-0 mb-10" style="max-width: 1280px;">
+  <section id="about" class="h-auto lg:h-72 md:h-72 mx-auto px-4 mt-10 lg:mt-0 md:mt-40 mb-10" style="max-width: 1280px;">
     <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6">
       <div class="md:w-1/4">
         <img src="../assets/profile1.jpg" alt="Profile Image" class="rounded-full mx-auto w-56 h-56 md:w-48 md:h-48 lg:w-64 lg:h-64 shadow-2xl">
       </div>
       <div class="md:w-9/12">
         <div class="relative flex flex-col w-full mx-auto">
-          <div class="p-6">
-            <h5 class="block mb-2 text-4xl font-semibold leading-snug tracking-normal text-blue-800 text-center">
+          <div class="md:p-6">
+            <h5 class="block mb-10 md:mb-2 text-4xl font-semibold leading-snug tracking-normal text-blue-800 text-center">
               About Me
             </h5>
-            <p class="block text-base text-justify">
+            <p class="block text-base lg:text-lg text-justify">
               Passionate and adaptive, I am a dedicated software engineer known for crafting innovative solutions and thriving in dynamic environments. 
               My love for coding goes beyond the lines of code, and I am committed to delivering excellence in every project. With a keen eye for detail 
               and a collaborative spirit, I work seamlessly in teams, bringing my adaptive mindset and passion for problem-solving to create impactful 
@@ -67,21 +67,21 @@
   <section id="skills" class="h-auto lg:h-96 md:h-96 mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">My Skills</h5>
     <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6">
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded">
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg">
         <svg class="w-12 h-12 text-[#ff661a] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="m3 2 1.6 17.8L12 22l7.5-2.2L21 2H3Zm14 6H9l.2 2H17l-.6 6.6-4.2 1.4-4.3-1.4-.3-3h2l.2 1.4 2.4.8 2.3-.7.3-3H7.4L7 6h10.4L17 8Z"/>
         </svg>
         <h3 class="mb-2 text-2xl font-semibold text-center">Front end</h3>
         <p class="text-center">HTML <br> CCS <br> Javascript  <br> Bootstrap <br> Tailwindcss <br> Vuejs</p>
       </div>
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded">
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg">
         <svg class="w-12 h-12 text-[#66b3ff] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
         </svg>
         <h3 class="mb-2 text-2xl font-semibold text-center">Back end</h3>
         <p class="text-center">Php <br> Python <br> Laravel <br> Flask <br> Mysql <br> Microsoft Sql server</p>
       </div>
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded">
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg">
         <svg class="w-12 h-12 text-[#ffbf80] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 6.2 7 9.4l5 3.2-5 3.2-5-3.3 5-3.1-5-3.2L7 3l5 3.2ZM7 17.8l5-3.2 5 3.2-5 3.2-5-3.2Z"/>
           <path d="m12 12.5 5-3.1-5-3.2L17 3l5 3.2-5 3.2 5 3.2-5 3.2-5-3.3Z"/>
@@ -96,9 +96,9 @@
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Recent Projects</h5>
     
     <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Budget Forecasting App</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2">
@@ -112,19 +112,25 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://budgetforecast.netlify.app" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="https://budgetforecast.netlify.app" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/bezla-budget" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/todolist.jpg" alt="todo app">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">TodoList App</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2"> 
@@ -136,19 +142,25 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://todolistvuejs24.netlify.app" target="_blank" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="https://todolistvuejs24.netlify.app" target="_blank" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/ToDoList" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div> 
         </div>
       </div>
 
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/rikdo.jpg" alt="RIKDO dbms">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Document Management System</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2">
@@ -161,19 +173,25 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://github.com/josephjrdlc21/rikdo-dbms.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/rikdo-dbms" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/aoi.jpg" alt="aoi">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Optical Inspection App</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2">
@@ -185,19 +203,25 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://github.com/josephjrdlc21/aoi-inspect.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/aoi-inspect.git" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/crems.jpg" alt="crems">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Item Management System</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2">
@@ -210,19 +234,25 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="w-auto rounded overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/audrino.jpg" alt="audrino">
-        <div class="flex flex-col md:min-h-[450px]">
+        <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Auto Switching Circuit</div><hr>
             <p class="text-gray-700 text-base text-justify mt-2">
@@ -235,10 +265,16 @@
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://github.com/josephjrdlc21/auto-switch-circuit.git" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              View more
+            <a href="" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/auto-switch-circuit.git" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
               </svg>
             </a>
           </div>
@@ -249,7 +285,7 @@
 
   <section id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Contact</h5>
-    <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded flex items-center justify-center">
+    <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg flex items-center justify-center">
       <div class="p-8">
         <p class="text-center text-base">I have experienced in building dynamic applications. <br>If you are interested in hiring me
           for your projects.<br>Please use the form to get in touch.<br> 
@@ -281,7 +317,7 @@
       </div>
     </div>
     <h5 class="text-center block text-2xl font-semibold leading-snug tracking-normal mt-10">Get in Touch</h5>
-    <form action="#" class="space-y-4 mx-auto mt-5 w-full max-w-[650px]">
+    <form action="#" class="space-y-4 mx-auto mt-10 w-full max-w-[650px]">
       <div>
         <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required>
       </div>
@@ -334,7 +370,5 @@
 </script>
 
 <style>
-  body{
-    background: #f2f2f2;
-  }
+ 
 </style>
