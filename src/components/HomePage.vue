@@ -1,5 +1,7 @@
 <template>
 
+  <Background />
+
   <header class="w-full md:h-16 p-4 h-30 border-b md:border-gray-300 shadow-md md:fixed top-0 left-0 bg-white z-50">
     <nav class="flex flex-col justify-center items-center mx-auto gap-2 md:flex-row md:justify-between" style="max-width: 1280px;">
       <div class="flex flex-row justify-start items-center gap-2">
@@ -23,7 +25,7 @@
   <section id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mt-2 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <div class="flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="md:w-1/2 md:order-1">
-        <img src="../assets/profile5.png" alt="Profile Image" class="rounded-lg mx-auto h-80 md:w-full md:h-full z-100">
+        <img src="../assets/profile5.png" alt="Profile Image" class="rounded-lg mx-auto h-80 md:w-full md:h-full">
       </div>
       <div class="md:w-1/2 text-center md:text-left">
         <p class="text-lg md:text-xl font-medium mb-4">Hello, <span class="text-blue-800">I'm</span></p>
@@ -366,7 +368,13 @@
 </template>
 
 <script>
-  
+  import Background from './BackgroundEffect.vue';
+
+  export default {
+    components: {
+      Background
+    },
+  }
 </script>
 
 <style>

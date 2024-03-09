@@ -18,12 +18,11 @@
 
 <style>
   .box div{
-    z-index: 0;
-    position: absolute;
     width: 60px;
     height: 60px;
     background-color: transparent;
     border: 6px solid #4d4d4d;
+    position: absolute;
   }
   .box div:nth-child(1){
     top:20%;
