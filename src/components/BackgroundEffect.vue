@@ -25,52 +25,52 @@
     position: absolute;
   }
   .box div:nth-child(1){
-    top:20%;
+    top:2%;
     left: 42%;
     animation: animate 10s linear infinite;
   }
   .box div:nth-child(2){
-    top:30%;
+    top:10%;
     left: 50%;
     animation: animate 7s linear infinite;
   }
   .box div:nth-child(3){
-    top:25%;
+    top:6%;
     left: 6%;
     animation: animate 9s linear infinite;
   }
   .box div:nth-child(4){
-    top:25%;
+    top:5%;
     left: 60%;
     animation: animate 9s linear infinite;
   }
   .box div:nth-child(5){
-    top:37%;
+    top:10%;
     left: 10%;
     animation: animate 6s linear infinite;
   }
   .box div:nth-child(6){
-    top:20%;
+    top:4%;
     left: 70%;
     animation: animate 12s linear infinite;
   }
   .box div:nth-child(7){
-    top:56%;
-    left: 90%;
+    top:2%;
+    left: 4%;
     animation: animate 15s linear infinite;
   }
   .box div:nth-child(8){
-    top:70%;
+    top:11%;
     left: 25%;
     animation: animate 16s linear infinite;
   }
   .box div:nth-child(9){
-    top:80%;
+    top:6%;
     left: 25%;
     animation: animate 9s linear infinite;
   }
   .box div:nth-child(10){
-    top:65%;
+    top:10%;
     left: 85%;
     animation: animate 5s linear infinite;
   }

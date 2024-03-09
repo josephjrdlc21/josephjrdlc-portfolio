@@ -16,5 +16,12 @@ export default {
 <style>
   body{
     background: #f2f2f2;
+    margin: 0;
+  }
+  #app{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
   }
 </style>
