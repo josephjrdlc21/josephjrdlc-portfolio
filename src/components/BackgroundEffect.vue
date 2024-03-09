@@ -40,7 +40,7 @@
     animation: animate 9s linear infinite;
   }
   .box div:nth-child(4){
-    top:40%;
+    top:25%;
     left: 60%;
     animation: animate 9s linear infinite;
   }
@@ -50,7 +50,7 @@
     animation: animate 6s linear infinite;
   }
   .box div:nth-child(6){
-    top:50%;
+    top:20%;
     left: 70%;
     animation: animate 12s linear infinite;
   }

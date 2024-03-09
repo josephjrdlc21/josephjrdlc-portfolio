@@ -24,10 +24,10 @@
 
   <section id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mt-2 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <div class="flex flex-col md:flex-row justify-between items-center gap-2">
-      <div class="md:w-1/2 md:order-1">
+      <div class="md:w-1/2 md:order-1" v-motion-slide-visible-left>
         <img src="../assets/profile5.png" alt="Profile Image" class="rounded-lg mx-auto h-80 md:w-full md:h-full">
       </div>
-      <div class="md:w-1/2 text-center md:text-left">
+      <div class="md:w-1/2 text-center md:text-left" v-motion-slide-visible-right>
         <p class="text-lg md:text-xl font-medium mb-4">Hello, <span class="text-blue-800">I'm</span></p>
         <h1 class="text-2xl md:text-4xl font-bold text-blue-800 mb-5">Joseph Dela Cruz Jr.</h1>
         <p class="text-xl md:text-2xl mb-5 font-semibold">Software Engineer</p>
@@ -44,10 +44,10 @@
 
   <section id="about" class="h-auto lg:h-72 md:h-72 mx-auto px-4 mt-10 lg:mt-0 md:mt-40 mb-10" style="max-width: 1280px;">
     <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6">
-      <div class="md:w-1/4">
+      <div class="md:w-1/4" v-motion-slide-visible-right>
         <img src="../assets/profile1.jpg" alt="Profile Image" class="rounded-full mx-auto w-56 h-56 md:w-48 md:h-48 lg:w-64 lg:h-64 shadow-2xl">
       </div>
-      <div class="md:w-9/12">
+      <div class="md:w-9/12" v-motion-slide-visible-left>
         <div class="relative flex flex-col w-full mx-auto">
           <div class="md:p-6">
             <h5 class="block mb-10 md:mb-2 text-4xl font-semibold leading-snug tracking-normal text-blue-800 text-center">
@@ -67,8 +67,8 @@
   </section>
 
   <section id="skills" class="h-auto lg:h-96 md:h-96 mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">My Skills</h5>
-    <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6">
+    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800" v-motion-slide-visible-top>My Skills</h5>
+    <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6" v-motion-slide-visible-top>
       <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg">
         <svg class="w-12 h-12 text-[#ff661a] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="m3 2 1.6 17.8L12 22l7.5-2.2L21 2H3Zm14 6H9l.2 2H17l-.6 6.6-4.2 1.4-4.3-1.4-.3-3h2l.2 1.4 2.4.8 2.3-.7.3-3H7.4L7 6h10.4L17 8Z"/>
@@ -95,9 +95,9 @@
   </section>
 
   <section id="projects" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Recent Projects</h5>
+    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800" v-motion-pop-visible>Recent Projects</h5>
     
-    <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+    <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8" v-motion-pop-visible>
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
         <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
         <div class="flex flex-col min-h-[450px]">
@@ -286,8 +286,8 @@
   </section>
 
   <section id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
-    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800">Contact</h5>
-    <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg flex items-center justify-center">
+    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800" v-motion-slide-visible-top>Contact</h5>
+    <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg flex items-center justify-center" v-motion-slide-visible-top>
       <div class="p-8">
         <p class="text-center text-base">I have experienced in building dynamic applications. <br>If you are interested in hiring me
           for your projects.<br>Please use the form to get in touch.<br> 
