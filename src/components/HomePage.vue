@@ -97,8 +97,8 @@
   <section id="projects" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800" v-motion-pop-visible>Recent Projects</h5>
     
-    <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8" v-motion-pop-visible>
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+    <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible>
         <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -130,7 +130,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible>
         <img class="w-full" src="../assets/todolist.jpg" alt="todo app">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -160,7 +160,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible> 
         <img class="w-full" src="../assets/rikdo.jpg" alt="RIKDO dbms">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -191,7 +191,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible>
         <img class="w-full" src="../assets/aoi.jpg" alt="aoi">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -221,7 +221,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible>
         <img class="w-full" src="../assets/crems.jpg" alt="crems">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -252,7 +252,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white">
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white" v-motion-pop-visible>
         <img class="w-full" src="../assets/audrino.jpg" alt="audrino">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -318,8 +318,8 @@
         </div>
       </div>
     </div>
-    <h5 class="text-center block text-2xl font-semibold leading-snug tracking-normal mt-10">Get in Touch</h5>
-    <form action="#" class="space-y-4 mx-auto mt-10 w-full max-w-[650px]">
+    <h5 class="text-center block text-2xl font-semibold leading-snug tracking-normal mt-10" v-motion-slide-visible-top>Get in Touch</h5>
+    <form action="#" class="space-y-4 mx-auto mt-10 w-full max-w-[650px]" v-motion-slide-visible-top>
       <div>
         <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required>
       </div>
