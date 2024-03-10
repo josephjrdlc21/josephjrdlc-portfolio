@@ -71,21 +71,21 @@
   <section id="skills" class="h-auto lg:h-96 md:h-96 mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800" v-motion-slide-visible-top>My Skills</h5>
     <div class="flex flex-col md:flex-row justify-between items-center w-full gap-6">
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg" v-motion-slide-visible-top>
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg overflow-hidden" v-motion-slide-visible-top>
         <svg class="w-12 h-12 text-[#ff661a] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="m3 2 1.6 17.8L12 22l7.5-2.2L21 2H3Zm14 6H9l.2 2H17l-.6 6.6-4.2 1.4-4.3-1.4-.3-3h2l.2 1.4 2.4.8 2.3-.7.3-3H7.4L7 6h10.4L17 8Z"/>
         </svg>
         <h3 class="mb-2 text-2xl font-semibold text-center">Front end</h3>
         <p class="text-center">HTML <br> CCS <br> Javascript  <br> Bootstrap <br> Tailwindcss <br> Vuejs</p>
       </div>
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg" v-motion-slide-visible-top>
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg overflow-hidden" v-motion-slide-visible-top>
         <svg class="w-12 h-12 text-[#66b3ff] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
         </svg>
         <h3 class="mb-2 text-2xl font-semibold text-center">Back end</h3>
         <p class="text-center">Php <br> Python <br> Laravel <br> Flask <br> Mysql <br> Microsoft Sql server</p>
       </div>
-      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg" v-motion-slide-visible-top>
+      <div class="bg-white shadow-md bg-clip-border h-72 w-full rounded-lg overflow-hidden" v-motion-slide-visible-top>
         <svg class="w-12 h-12 text-[#ffbf80] bg-blue-50 mx-auto shadow-md bg-clip-border mt-4 mb-2 rounded-xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 6.2 7 9.4l5 3.2-5 3.2-5-3.3 5-3.1-5-3.2L7 3l5 3.2ZM7 17.8l5-3.2 5 3.2-5 3.2-5-3.2Z"/>
           <path d="m12 12.5 5-3.1-5-3.2L17 3l5 3.2-5 3.2 5 3.2-5 3.2-5-3.3Z"/>
