@@ -536,10 +536,13 @@
           if (appDiv) {
             if (isDarkMode.value) {
               appDiv.classList.add('dark:bg-slate-800');
+              document.body.classList.add('dark:bg-slate-800');
             } else {
               appDiv.classList.remove('dark:bg-slate-800');
+              document.body.classList.remove('dark:bg-slate-800');
             }
             appDiv.classList.toggle('dark', isDarkMode.value);
+            document.body.classList.toggle('dark', isDarkMode.value);
           }
         }
         window.addEventListener('scroll', handleScroll);
@@ -556,10 +559,13 @@
         if (appDiv) {
           if (isDarkMode.value) {
             appDiv.classList.add('dark:bg-slate-800');
+            document.body.classList.add('dark:bg-slate-800');
           } else {
             appDiv.classList.remove('dark:bg-slate-800');
+            document.body.classList.remove('dark:bg-slate-800');
           }
           appDiv.classList.toggle('dark', isDarkMode.value);
+          document.body.classList.toggle('dark', isDarkMode.value);
         }
         localStorage.setItem('darkMode', isDarkMode.value.toString());
       };
