@@ -98,6 +98,12 @@
 
       <div class="bg-white dark:bg-slate-600 drop-shadow-md p-5 mb-5 rounded-lg" v-motion-slide-visible-top>
         <div class="h-14 w-14">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="url(#deviconBootstrapWordmark0)" d="M14.985 15.15c-.237-6.815 5.072-13.099 12.249-13.099h73.54c7.177 0 12.486 6.284 12.249 13.099c-.228 6.546.068 15.026 2.202 21.94c2.141 6.936 5.751 11.319 11.664 11.883v6.387c-5.913.563-9.523 4.947-11.664 11.883c-2.134 6.914-2.43 15.394-2.202 21.94c.237 6.815-5.072 13.098-12.249 13.098h-73.54c-7.177 0-12.486-6.284-12.249-13.098c.228-6.546-.068-15.026-2.203-21.94c-2.14-6.935-5.76-11.319-11.673-11.883v-6.387c5.913-.563 9.533-4.947 11.673-11.883c2.135-6.914 2.43-15.394 2.203-21.94"/><g filter="url(#deviconBootstrapWordmark2)"><path fill="url(#deviconBootstrapWordmark1)" d="M67.11 79.174c11.619 0 18.62-5.689 18.62-15.072c0-7.093-4.995-12.228-12.413-13.041v-.296c5.45-.886 9.726-5.947 9.726-11.6c0-8.053-6.358-13.299-16.047-13.299h-21.8v53.308zM53.674 32.627h11.279c6.13 0 9.613 2.733 9.613 7.684c0 5.282-4.05 8.238-11.392 8.238h-9.5zm0 39.787V54.866h11.203c8.023 0 12.186 2.955 12.186 8.718s-4.049 8.83-11.694 8.83z"/><path fill="#fff" d="M67.11 79.174c11.619 0 18.62-5.689 18.62-15.072c0-7.093-4.995-12.228-12.413-13.041v-.296c5.45-.886 9.726-5.947 9.726-11.6c0-8.053-6.358-13.299-16.047-13.299h-21.8v53.308zM53.674 32.627h11.279c6.13 0 9.613 2.733 9.613 7.684c0 5.282-4.05 8.238-11.392 8.238h-9.5zm0 39.787V54.866h11.203c8.023 0 12.186 2.955 12.186 8.718s-4.049 8.83-11.694 8.83z"/></g><path fill="#7952b3" d="M11.398 121.43v-17.738h5.047c1.533 0 2.75.375 3.649 1.126c.899.75 1.348 1.727 1.348 2.931c0 1.007-.272 1.881-.816 2.623c-.545.742-1.295 1.27-2.252 1.583v.05c1.196.14 2.153.593 2.87 1.36c.717.759 1.076 1.748 1.076 2.969c0 1.517-.544 2.746-1.632 3.686c-1.089.94-2.462 1.41-4.12 1.41zm2.078-15.858v5.727h2.128c1.138 0 2.033-.272 2.684-.816c.651-.553.977-1.329.977-2.326c0-1.723-1.134-2.585-3.402-2.585zm0 7.595v6.383h2.82c1.22 0 2.165-.289 2.833-.866c.676-.577 1.014-1.369 1.014-2.375c0-2.095-1.427-3.142-4.28-3.142zm17.466 8.563c-1.872 0-3.369-.59-4.49-1.769c-1.113-1.187-1.67-2.758-1.67-4.713c0-2.127.581-3.789 1.744-4.985c1.163-1.195 2.734-1.793 4.713-1.793c1.888 0 3.36.581 4.416 1.744c1.063 1.163 1.595 2.775 1.595 4.836c0 2.021-.573 3.641-1.72 4.862c-1.137 1.212-2.667 1.818-4.588 1.818m.148-11.553c-1.303 0-2.333.445-3.092 1.336c-.759.882-1.138 2.102-1.138 3.661c0 1.501.383 2.685 1.15 3.55c.767.867 1.793 1.3 3.08 1.3c1.311 0 2.318-.425 3.019-1.275c.709-.849 1.063-2.057 1.063-3.624c0-1.583-.354-2.804-1.063-3.662c-.701-.857-1.708-1.286-3.019-1.286m14.696 11.553c-1.872 0-3.369-.59-4.49-1.769c-1.113-1.187-1.67-2.758-1.67-4.713c0-2.127.581-3.789 1.744-4.985c1.163-1.195 2.734-1.793 4.713-1.793c1.888 0 3.36.581 4.416 1.744c1.064 1.163 1.596 2.775 1.596 4.836c0 2.021-.573 3.641-1.72 4.862c-1.138 1.212-2.668 1.818-4.59 1.818Zm.148-11.553c-1.303 0-2.333.445-3.092 1.336c-.759.882-1.138 2.102-1.138 3.661c0 1.501.383 2.685 1.15 3.55c.767.867 1.793 1.3 3.08 1.3c1.311 0 2.318-.425 3.019-1.275c.709-.849 1.063-2.057 1.063-3.624c0-1.583-.354-2.804-1.063-3.662c-.701-.857-1.708-1.286-3.02-1.286ZM61.21 121.31c-.478.264-1.109.396-1.893.396c-2.218 0-3.327-1.237-3.327-3.711v-7.496h-2.177v-1.732h2.177v-3.092l2.029-.656v3.748h3.19v1.732h-3.19v7.137c0 .849.144 1.456.433 1.819c.288.363.766.544 1.434.544c.511 0 .953-.14 1.324-.42zm1.942-.34v-2.177c1.105.816 2.321 1.224 3.649 1.224c1.781 0 2.672-.593 2.672-1.78c0-.339-.078-.623-.235-.854a2.138 2.138 0 0 0-.619-.631a4.326 4.326 0 0 0-.915-.482a34.7 34.7 0 0 0-1.126-.458a16.416 16.416 0 0 1-1.484-.668a4.918 4.918 0 0 1-1.064-.767a3.059 3.059 0 0 1-.643-.977c-.14-.363-.21-.787-.21-1.274c0-.593.136-1.117.408-1.571a3.53 3.53 0 0 1 1.088-1.15a5.01 5.01 0 0 1 1.547-.706a6.94 6.94 0 0 1 1.806-.235c1.097 0 2.078.19 2.944.57v2.053c-.932-.611-2.004-.916-3.217-.916c-.38 0-.721.045-1.026.136a2.5 2.5 0 0 0-.792.36a1.735 1.735 0 0 0-.507.568a1.493 1.493 0 0 0-.173.718c0 .329.058.605.173.828c.123.223.3.421.532.594c.23.173.511.33.841.47c.33.14.705.293 1.126.458c.56.214 1.063.437 1.509.668a4.9 4.9 0 0 1 1.138.767c.313.28.552.606.717.977c.173.371.26.812.26 1.323c0 .627-.14 1.171-.42 1.633c-.273.462-.64.845-1.102 1.15a5.078 5.078 0 0 1-1.595.681a7.852 7.852 0 0 1-1.893.223c-1.303 0-2.433-.252-3.39-.755zm17.39.34c-.477.264-1.108.396-1.892.396c-2.218 0-3.327-1.237-3.327-3.711v-7.496h-2.177v-1.732h2.177v-3.092l2.029-.656v3.748h3.19v1.732h-3.19v7.137c0 .849.144 1.456.433 1.819c.288.363.766.544 1.434.544c.511 0 .953-.14 1.324-.42v1.731Zm9.316-10.49c-.355-.272-.866-.408-1.534-.408c-.866 0-1.592.408-2.177 1.224c-.577.817-.866 1.93-.866 3.34v6.457h-2.028v-12.666h2.028v2.61h.05c.289-.891.73-1.583 1.323-2.078c.593-.503 1.257-.755 1.992-.755c.527 0 .931.058 1.212.174zm11.271 10.61H99.1v-1.98h-.05c-.881 1.518-2.18 2.277-3.894 2.277c-1.262 0-2.252-.334-2.97-1.002c-.709-.668-1.063-1.555-1.063-2.66c0-2.367 1.393-3.743 4.18-4.13l3.798-.533c0-2.152-.87-3.228-2.61-3.228c-1.525 0-2.902.519-4.131 1.558v-2.078c1.245-.791 2.68-1.187 4.305-1.187c2.977 0 4.465 1.575 4.465 4.725zm-2.03-6.407l-3.054.42c-.94.132-1.65.367-2.128.705c-.478.33-.717.92-.717 1.769c0 .619.219 1.126.656 1.522c.445.387 1.035.58 1.769.58c1.006 0 1.835-.35 2.486-1.05c.66-.709.99-1.604.99-2.685l-.001-1.261Zm7.93 4.577h-.05v7.657h-2.028v-18.493h2.029v2.226h.049c.998-1.682 2.458-2.523 4.379-2.523c1.633 0 2.907.569 3.822 1.707c.915 1.129 1.373 2.647 1.373 4.552c0 2.119-.515 3.818-1.546 5.096c-1.031 1.27-2.441 1.905-4.23 1.905c-1.641 0-2.907-.709-3.798-2.128zm-.05-5.109v1.77c0 1.047.338 1.937 1.015 2.671c.685.726 1.55 1.089 2.597 1.089c1.229 0 2.19-.47 2.883-1.41c.7-.94 1.05-2.247 1.05-3.922c0-1.41-.325-2.515-.976-3.315c-.651-.8-1.534-1.2-2.647-1.2c-1.18 0-2.128.412-2.845 1.237c-.718.817-1.077 1.843-1.077 3.08"/><defs><linearGradient id="deviconBootstrapWordmark0" x1="19.8" x2="129.708" y1="4.704" y2="91.95" gradientUnits="userSpaceOnUse"><stop stop-color="#9013fe"/><stop offset="1" stop-color="#6610f2"/></linearGradient><linearGradient id="deviconBootstrapWordmark1" x1="49.032" x2="73.598" y1="29.374" y2="70.922" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1e5fc"/></linearGradient><filter id="deviconBootstrapWordmark2" width="48.641" height="61.415" x="41.143" y="22.795" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy=".983"/><feGaussianBlur stdDeviation="1.965"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_2_2"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_2_2" result="shape"/></filter></defs></svg>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-slate-600 drop-shadow-md p-5 mb-5 rounded-lg" v-motion-slide-visible-top>
+        <div class="h-14 w-14">
           <svg viewBox="0 0 128 128"><defs><linearGradient id="tailwindcss-original-wordmark-a" gradientUnits="userSpaceOnUse" x1="2.21" y1="511.596" x2="3.211" y2="511.596" gradientTransform="matrix(27.16757 5.6391 -9.3985 16.30055 4747.487 -8290.643)"><stop offset="0" stop-color="#2298bd"></stop><stop offset="1" stop-color="#0ed7b5"></stop></linearGradient></defs><path d="M13.227 56.074c-3.528 0-5.727 1.778-6.602 5.301 1.324-1.773 2.875-2.426 4.625-1.977 1 .25 1.727.977 2.523 1.801 1.301 1.324 2.801 2.852 6.079 2.852 3.523 0 5.722-1.778 6.597-5.301-1.324 1.773-2.875 2.426-4.625 1.977-1-.25-1.722-.977-2.523-1.801-1.301-1.324-2.801-2.852-6.074-2.852zM6.602 64C3.074 64 .875 65.773 0 69.3c1.324-1.777 2.875-2.425 4.625-1.976 1 .25 1.727.977 2.523 1.801 1.301 1.324 2.801 2.852 6.079 2.852 3.523 0 5.722-1.778 6.597-5.301-1.324 1.773-2.875 2.426-4.625 1.972-1-.25-1.722-.972-2.523-1.796C11.398 65.523 9.898 64 6.602 64zm0 0" fill="url(#tailwindcss-original-wordmark-a)"></path><path d="M39.676 62.75h-2.301v4.477c0 1.199.773 1.171 2.3 1.097v1.801c-3.1.375-4.323-.477-4.323-2.898V62.75h-1.704v-1.926h1.704v-2.5l2-.597v3.097h2.296v1.926zm8.8-1.926h2v9.301h-2v-1.352c-.703.977-1.8 1.579-3.25 1.579-2.527 0-4.624-2.153-4.624-4.903 0-2.773 2.097-4.898 4.625-4.898 1.449 0 2.546.597 3.25 1.574zm-2.953 7.625c1.676 0 2.954-1.25 2.954-2.972 0-1.727-1.278-2.977-2.954-2.977-1.671 0-2.949 1.25-2.949 2.977.028 1.722 1.278 2.972 2.95 2.972zm8.301-9.023c-.699 0-1.273-.602-1.273-1.278 0-.699.574-1.273 1.273-1.273.7 0 1.278.574 1.278 1.273.023.676-.579 1.278-1.278 1.278zm-1 10.699v-9.3h2v9.3zm4.324 0V56.551h2v13.574zm15.079-9.3h2.125l-2.926 9.3h-1.977l-1.926-6.273-1.949 6.273h-1.972l-2.926-9.3H62.8l1.8 6.425 1.95-6.426h1.926l1.921 6.426zm4.597-1.4c-.699 0-1.273-.6-1.273-1.277 0-.699.574-1.273 1.273-1.273.7 0 1.278.574 1.278 1.273.023.676-.551 1.278-1.278 1.278zm-1 10.7v-9.3h2v9.3zm9.227-9.55c2.074 0 3.574 1.425 3.574 3.823v5.727h-2v-5.5c0-1.426-.824-2.148-2.074-2.148-1.324 0-2.375.773-2.375 2.671v5h-2v-9.296h2v1.199c.625-1 1.625-1.477 2.875-1.477zm13.125-3.473h2v13.023h-2v-1.352c-.7.977-1.801 1.579-3.25 1.579-2.528 0-4.625-2.153-4.625-4.903 0-2.773 2.097-4.898 4.625-4.898 1.449 0 2.55.597 3.25 1.574zm-2.95 11.347c1.672 0 2.95-1.25 2.95-2.972 0-1.727-1.278-2.977-2.95-2.977-1.675 0-2.953 1.25-2.953 2.977 0 1.722 1.278 2.972 2.954 2.972zm11.672 1.926c-2.796 0-4.921-2.148-4.921-4.898 0-2.778 2.097-4.903 4.921-4.903 1.829 0 3.403.95 4.153 2.403l-1.727 1c-.398-.875-1.324-1.426-2.449-1.426-1.648 0-2.875 1.25-2.875 2.926 0 1.671 1.25 2.921 2.875 2.921 1.125 0 2.023-.574 2.477-1.421l1.722.972c-.75 1.477-2.347 2.426-4.176 2.426zm7.528-7c0 1.7 5 .676 5 4.125 0 1.852-1.625 2.875-3.625 2.875-1.852 0-3.2-.852-3.801-2.176l1.727-1c.296.852 1.046 1.352 2.074 1.352.898 0 1.574-.301 1.574-1.051 0-1.648-5-.727-5-4.05 0-1.75 1.5-2.848 3.398-2.848 1.528 0 2.801.699 3.454 1.921l-1.704.954c-.324-.727-.972-1.051-1.75-1.051-.722-.028-1.347.3-1.347.949zm8.574 0c0 1.7 5 .676 5 4.125 0 1.852-1.625 2.875-3.625 2.875-1.852 0-3.2-.852-3.8-2.176l1.726-1c.3.852 1.05 1.352 2.074 1.352.898 0 1.574-.301 1.574-1.051 0-1.648-5-.727-5-4.05 0-1.75 1.5-2.848 3.403-2.848 1.523 0 2.796.699 3.449 1.921l-1.7.954c-.328-.727-.976-1.051-1.75-1.051-.726-.028-1.351.3-1.351.949zm0 0" fill="#2d3748"></path></svg>
         </div>
       </div>
@@ -376,39 +382,45 @@
             <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
             </div>
           </div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">January 2024 - February 2024</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Developer</h3>
-          <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Bezla.com LLC</h3>
-          <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-            Key contributor to a hotel management app, developed Budget Simulation tool for informed decision-making. Led content creation using GoDaddy, 
-            contributing to blogs, video editing, Photoshop, and transcription for a compelling online presence.
-          </p>
+          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">January 2024 - February 2024</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Developer</h3>
+            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Bezla.com LLC</h3>
+            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+              Key contributor to a hotel management app, developed Budget Simulation tool for informed decision-making. Led content creation using GoDaddy, 
+              contributing to blogs, video editing, Photoshop, and transcription for a compelling online presence.
+            </p>
+          </div>
         </li>
         <li class="mb-10 ms-4">
           <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
             <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
             </div>
           </div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">June 2023 - December 2023</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Engineer</h3>
-          <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Wistron InfoComm (Philippines)</h3>
-          <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-            Design and develop Jigs & Fixture Management System implementation in Laravel, enhancing fixture tracking. Contributed to AOI research with Python programming 
-            for quality control. Developed automated cable switching using microcontroller tech for efficient testing.
-          </p>
+          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">June 2023 - December 2023</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Engineer</h3>
+            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Wistron InfoComm (Philippines)</h3>
+            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+              Design and develop Jigs & Fixture Management System implementation in Laravel, enhancing fixture tracking. Contributed to AOI research with Python programming 
+              for quality control. Developed automated cable switching using microcontroller tech for efficient testing.
+            </p>
+          </div>
         </li>
         <li class="mb-10 ms-4">
           <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
             <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
             </div>
           </div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">July 2022 - December 2022</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">IT Programmer</h3>
-          <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
-          <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-            Led the design and development of a payroll system, and played a key role in implementing a LAN-based Student Government voting system. Managed 
-            network troubleshooting, installations, configurations, and provided solutions for enhanced system efficiency.
-          </p>
+          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">July 2022 - December 2022</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">IT Programmer</h3>
+            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
+            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+              Led the design and development of a payroll system, and played a key role in implementing a LAN-based Student Government voting system. Managed 
+              network troubleshooting, installations, configurations, and provided solutions for enhanced system efficiency.
+            </p>
+          </div>
         </li>
       </ol>
       <ol class="md:w-1/2 relative border-s border-gray-800 dark:border-slate-200" v-motion-fade-visible>
@@ -417,26 +429,30 @@
             <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
             </div>
           </div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2019 - June 2023</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Bachelor of Science in Information Technology</h3>
-          <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Columban College, Inc.</h3>
-          <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
-            Awarded as <b>2nd Honorable Mention</b> and able to Design and Developed a Web-based Document Management System of 
-            Research, Innovation, and Knowledge Development Office - RIKDO of Columban College Inc. Olongapo City
-          </p>
+          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2019 - June 2023</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Bachelor of Science in Information Technology</h3>
+            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Columban College, Inc.</h3>
+            <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+              Awarded as <b>2nd Honorable Mention</b> and able to Design and Developed a Web-based Document Management System of 
+              Research, Innovation, and Knowledge Development Office - RIKDO of Columban College Inc. Olongapo City
+            </p>
+          </div>
         </li>
         <li class="mb-10 ms-4">
           <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
             <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
             </div>
           </div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2013 - April 2019</time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">JHS/Science, Technology, Engineering and Mathematics</h3>
-          <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
-          <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
-            Awarded of the Gerry Roxas Leadership Award, I've served as President in diverse organizations, including Information Technology, Choir, and 
-            Team Captain for the Badminton Varsity team.
-          </p>
+          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
+            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2013 - April 2019</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">JHS/Science, Technology, Engineering and Mathematics</h3>
+            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
+            <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+              Awarded of the Gerry Roxas Leadership Award, I've served as President in diverse organizations, including Information Technology, Choir, and 
+              Team Captain for the Badminton Varsity team.
+            </p>
+          </div>
         </li>
       </ol>
     </div>
@@ -446,11 +462,11 @@
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-slide-visible-top>Contact</h5>
     <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
       <div class="p-4">
-        <h5 class="text-center text-xl md:text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-fade-visible>Get in Touch</h5>
-        <p class="text-justify md:text-center text-base md:text-lg mt-5 dark:text-slate-200">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
-        <p class="md:text-center text-base md:text-lg mt-2 dark:text-slate-200">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="font-semibold hover:underline dark:text-slate-200 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
+        <h5 class="text-center text-xl md:text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-fade-visible>Get in Touch, let's talk</h5>
+        <p class="text-center text-base md:text-lg mt-5 dark:text-slate-200">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
+        <p class="text-center text-base md:text-lg mt-5 dark:text-slate-200">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="font-semibold hover:underline dark:text-slate-200 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
         <h3 class="text-lg md:text-xl font-semibold text-center mt-5 dark:text-slate-200">You can also find me on the following channel</h3>
-        <div class="flex flex-row justify-center items-center gap-4 mt-2">
+        <div class="flex flex-row justify-center items-center gap-4 mt-3">
           <a href="https://twitter.com/JosephJr_DLC" target="_blank">
             <svg class="w-[32px] h-[32px] bg-blue-500 text-white rounded-sm" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd" d="M22 5.9c-.7.3-1.5.5-2.4.6a4 4 0 0 0 1.8-2.2c-.8.5-1.6.8-2.6 1a4.1 4.1 0 0 0-6.7 1.2 4 4 0 0 0-.2 2.5 11.7 11.7 0 0 1-8.5-4.3 4 4 0 0 0 1.3 5.4c-.7 0-1.3-.2-1.9-.5a4 4 0 0 0 3.3 4 4.2 4.2 0 0 1-1.9.1 4.1 4.1 0 0 0 3.9 2.8c-1.8 1.3-4 2-6.1 1.7a11.7 11.7 0 0 0 10.7 1A11.5 11.5 0 0 0 20 8.5V8a10 10 0 0 0 2-2.1Z" clip-rule="evenodd"/>
