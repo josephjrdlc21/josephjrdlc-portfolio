@@ -42,7 +42,7 @@
     </ul>
   </header>
 
-  <section id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mb-10 md:mb-0 md:mt-40 lg:mt-0" style="max-width: 1280px;">
+  <section v-if="!isToggledProject" id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mb-10 md:mb-0 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <div class="flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="md:w-1/2 md:order-1" v-motion-slide-visible-left>
         <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto h-60 md:w-[85%] md:h-[85%] lg:w-[75%] lg:h-[75%]">
@@ -64,7 +64,7 @@
     </div>
   </section>
 
-  <section id="about" class="h-auto lg:h-72 md:h-72 mx-auto px-4 mt-10 md:mt-40 lg:mt-0" style="max-width: 1280px;">
+  <section v-if="!isToggledProject" id="about" class="h-auto lg:h-72 md:h-72 mx-auto px-4 mt-10 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-slide-visible-right>About Me</h5>
     <p class="block text-base lg:text-lg text-justify md:mt-5 dark:text-slate-200" v-motion-slide-visible-left>
       Passionate and adaptive, I am a dedicated software engineer known for crafting innovative solutions and thriving in dynamic environments. 
@@ -75,7 +75,7 @@
     </p>
   </section>
 
-  <section id="skills" class="h-auto mx-auto px-4 text-center mt-10 md:mt-0" style="max-width: 1280px;">
+  <section v-if="!isToggledProject" id="skills" class="h-auto mx-auto px-4 text-center mt-10 md:mt-0" style="max-width: 1280px;">
     <h5 class="inline-block mb-6 text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-slide-visible-top>Technology Stack</h5>
     <div class="flex flex-row flex-wrap justify-center gap-x-5 mt-5">
       <div class="bg-white dark:bg-slate-600 drop-shadow-md p-5 mb-5 rounded-lg" v-motion-slide-visible-top>
@@ -151,6 +151,12 @@
       </div>
 
       <div class="bg-white dark:bg-slate-600 drop-shadow-md p-5 mb-5 rounded-lg" v-motion-slide-visible-top>
+        <div class="h-14 w-14 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 114"><path fill="#ff6c2c" d="M42.327 27.89h31.996l-4.955 18.971c-.757 2.644-2.173 4.768-4.247 6.371c-2.077 1.607-4.484 2.408-7.22 2.408H43.035c-3.398 0-6.396.99-8.99 2.973c-2.598 1.982-4.413 4.671-5.451 8.07c-.661 2.548-.732 4.955-.212 7.22c.518 2.265 1.438 4.272 2.76 6.016c1.321 1.748 3.02 3.14 5.098 4.178c2.074 1.04 4.34 1.556 6.795 1.556h9.06c1.7 0 3.091.686 4.177 2.053c1.084 1.37 1.392 2.902.92 4.601l-5.662 20.954h-9.91c-6.796 0-13.05-1.487-18.76-4.46c-5.711-2.973-10.454-6.912-14.228-11.822C4.856 92.073 2.283 86.481.916 80.204c-1.369-6.277-1.203-12.719.496-19.327l.566-2.123a41.337 41.337 0 0 1 5.733-12.53c2.596-3.822 5.663-7.078 9.203-9.768c3.539-2.69 7.48-4.79 11.822-6.3c4.34-1.509 8.87-2.266 13.591-2.266m16.139 85.37L86.356 8.779c.754-2.642 2.17-4.765 4.248-6.371C92.678.803 95.084 0 97.824 0h29.59c6.795 0 13.046 1.487 18.758 4.46c5.709 2.973 10.452 6.915 14.228 11.821c3.774 4.909 6.371 10.501 7.787 16.777c1.416 6.278 1.225 12.72-.567 19.325l-.565 2.124c-1.228 4.53-3.115 8.707-5.663 12.53c-2.55 3.822-5.593 7.103-9.132 9.839c-3.54 2.738-7.482 4.862-11.822 6.37c-4.342 1.512-8.873 2.266-13.591 2.266h-25.625l5.096-19.113c.755-2.548 2.17-4.623 4.248-6.23c2.075-1.603 4.481-2.406 7.22-2.406h8.212c3.397 0 6.441-1.038 9.13-3.115c2.691-2.075 4.46-4.765 5.31-8.07c.66-2.358.73-4.672.213-6.937c-.52-2.265-1.44-4.27-2.762-6.017c-1.322-1.745-3.021-3.16-5.096-4.247c-2.077-1.084-4.342-1.628-6.795-1.628H110.14l-20.67 76.876c-.757 2.548-2.173 4.625-4.248 6.229c-2.076 1.606-4.437 2.407-7.079 2.407zm176.543-55.78l.425-1.558c.188-.754.071-1.39-.354-1.91c-.425-.518-1.015-.78-1.77-.78h-46.012c-1.982 0-3.776-.424-5.38-1.274c-1.605-.85-2.926-1.958-3.963-3.327c-1.04-1.366-1.748-2.948-2.124-4.743c-.379-1.791-.332-3.632.14-5.521l2.832-10.76h62.294c3.87 0 7.409.85 10.618 2.549c3.208 1.698 5.876 3.917 8 6.654c2.124 2.738 3.585 5.875 4.388 9.414c.801 3.54.73 7.199-.212 10.973L252.706 98.82c-1.132 4.248-3.421 7.694-6.866 10.335c-3.446 2.644-7.386 3.965-11.822 3.965l-46.012-.142c-4.06 0-7.787-.872-11.184-2.62c-3.399-1.744-6.183-4.056-8.354-6.936c-2.171-2.878-3.68-6.182-4.53-9.91c-.849-3.728-.754-7.527.283-11.398l.567-2.124a22.561 22.561 0 0 1 3.326-7.361c1.558-2.266 3.374-4.2 5.451-5.805a24.65 24.65 0 0 1 6.937-3.752c2.549-.896 5.24-1.345 8.071-1.345h38.65l-2.832 10.619c-.756 2.548-2.172 4.625-4.248 6.229c-2.076 1.606-4.436 2.406-7.078 2.406h-17.273c-1.605 0-2.643.804-3.114 2.408c-.283 1.04-.095 1.96.566 2.76c.66.803 1.509 1.203 2.548 1.203h27.89c1.039 0 1.935-.283 2.691-.849c.754-.567 1.225-1.32 1.416-2.265l.283-1.133zm82.398-29.59c6.887 0 13.188 1.487 18.899 4.46c5.71 2.973 10.452 6.915 14.23 11.822c3.773 4.908 6.346 10.525 7.714 16.847c1.368 6.325 1.156 12.791-.636 19.396l-7.079 26.617c-.474 1.888-1.487 3.397-3.043 4.53c-1.558 1.133-3.282 1.699-5.17 1.699h-15.289c-1.793 0-3.209-.683-4.247-2.053c-1.04-1.367-1.323-2.903-.85-4.601l8.495-32.138c.66-2.358.73-4.672.212-6.937c-.52-2.266-1.44-4.27-2.76-6.017c-1.323-1.746-3.021-3.161-5.097-4.248c-2.078-1.084-4.343-1.627-6.795-1.627h-15.857L286.4 107.032c-.472 1.888-1.486 3.397-3.043 4.53c-1.558 1.133-3.328 1.699-5.31 1.699H262.9c-1.699 0-3.092-.683-4.176-2.053c-1.084-1.367-1.392-2.903-.921-4.601l20.954-78.717zm83.386 26.97c-1.132.899-1.936 2.054-2.407 3.47l-6.37 24.067c-.378 1.323-.141 2.549.707 3.681c.85 1.133 1.983 1.7 3.399 1.7h58.612l-4.53 16.847c-.757 2.548-2.173 4.625-4.248 6.229c-2.077 1.606-4.438 2.407-7.079 2.407h-53.373c-3.872 0-7.411-.825-10.619-2.478c-3.21-1.65-5.876-3.868-8-6.654c-2.123-2.782-3.588-5.946-4.387-9.485c-.802-3.54-.685-7.15.353-10.831l8.636-32.138c.943-3.49 2.406-6.7 4.389-9.627c1.982-2.924 4.319-5.426 7.008-7.503c2.69-2.076 5.709-3.703 9.06-4.885a31.12 31.12 0 0 1 10.407-1.77h37.8c3.87 0 7.41.85 10.618 2.549c3.208 1.699 5.877 3.918 8 6.654c2.124 2.738 3.561 5.9 4.317 9.485c.755 3.588.66 7.22-.283 10.902l-2.548 9.627c-1.132 4.248-3.422 7.67-6.866 10.265c-3.447 2.596-7.34 3.893-11.68 3.893h-42.756l2.832-10.477c.659-2.548 2.027-4.623 4.105-6.23c2.075-1.603 4.481-2.406 7.22-2.406h17.273c1.604 0 2.64-.801 3.114-2.407l.566-2.124c.284-1.037.093-1.982-.566-2.831c-.662-.85-1.51-1.274-2.548-1.274h-26.333c-1.415 0-2.69.449-3.823 1.345m53.797 58.4L483.046 6.37c.471-1.886 1.487-3.42 3.045-4.6C487.647.59 489.417 0 491.4 0h15.148c1.792 0 3.231.686 4.318 2.053c1.084 1.37 1.391 2.902.92 4.601L490.55 85.512c-1.04 4.155-2.715 7.928-5.026 11.326c-2.314 3.398-5.05 6.3-8.212 8.707c-3.163 2.407-6.678 4.296-10.547 5.663c-3.871 1.37-7.928 2.053-12.175 2.053"/></svg>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-slate-600 drop-shadow-md p-5 mb-5 rounded-lg" v-motion-slide-visible-top>
         <div class="h-14 w-14">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#31251c" d="M76.397 55.676c-2.737 0-4.775 1.344-4.775 4.579c0 2.437 1.343 4.129 4.628 4.129c2.784 0 4.676-1.641 4.676-4.23c0-2.934-1.693-4.478-4.529-4.478m-5.471 22.84c-.648.795-1.294 1.64-1.294 2.637c0 1.989 2.536 2.587 6.021 2.587c2.885 0 6.816-.202 6.816-2.885c0-1.595-1.892-1.693-4.281-1.843zm14.725-22.69c.895 1.145 1.842 2.737 1.842 5.026c0 5.522-4.329 8.756-10.597 8.756c-1.594 0-3.037-.198-3.932-.447l-1.642 2.637l4.875.297c8.608.549 13.682.798 13.682 7.413c0 5.723-5.024 8.955-13.682 8.955c-9.006 0-12.438-2.289-12.438-6.218c0-2.24.996-3.431 2.737-5.076c-1.643-.694-2.189-1.937-2.189-3.281c0-1.095.547-2.09 1.443-3.036c.896-.944 1.891-1.891 3.084-2.985c-2.438-1.194-4.278-3.781-4.278-7.464c0-5.721 3.781-9.65 11.393-9.65c2.14 0 3.435.197 4.578.498h9.703v4.228zm13.332-9.04c-2.837 0-4.479-1.643-4.479-4.48c0-2.833 1.642-4.377 4.479-4.377c2.886 0 4.527 1.543 4.527 4.377c.001 2.837-1.641 4.48-4.527 4.48m-6.42 29.9v-3.929l2.539-.348c.696-.1.795-.249.795-.997V56.785c0-.546-.148-.896-.647-1.044l-2.687-.946l.547-4.028h10.301v20.646c0 .798.048.896.796.997l2.538.348v3.929H92.563zm33.857-1.93c-2.141 1.043-5.274 1.99-8.112 1.99c-5.92 0-8.158-2.386-8.158-8.011V55.7c0-.297 0-.497-.399-.497h-3.482v-4.428c4.38-.499 6.12-2.688 6.667-8.111h4.728v7.067c0 .347 0 .498.398.498h7.015v4.975h-7.413v11.89c0 2.935.697 4.079 3.383 4.079c1.395 0 2.836-.347 4.03-.795z"/><path fill="#f34f29" d="M52.7 61.7L29.951 38.952a3.355 3.355 0 0 0-4.744 0l-4.724 4.724l5.991 5.992a3.983 3.983 0 0 1 4.1.956a3.988 3.988 0 0 1 .947 4.125l5.775 5.775a3.988 3.988 0 0 1 4.125 6.593a3.992 3.992 0 0 1-6.516-4.342l-5.386-5.386l-.001 14.174a3.992 3.992 0 0 1 1.056 6.401a3.993 3.993 0 1 1-4.339-6.518V57.141a3.99 3.99 0 0 1-2.167-5.236l-5.906-5.908L2.563 61.595a3.356 3.356 0 0 0 0 4.747L25.312 89.09a3.357 3.357 0 0 0 4.746 0L52.7 66.446a3.355 3.355 0 0 0 0-4.746"/><path fill="none" d="M1.58 37.928h124.84v52.143H1.58z"/></svg>
         </div>
@@ -184,8 +190,42 @@
 
   <section id="projects" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-pop-visible>Recent Projects</h5>
-    
-    <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+    <button @click="showProject" class="mx-auto block mb-10 border-b-2 border-gray-600 text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200">View All</button>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+        <img class="w-full" src="../assets/tracker.png" alt="tracker">
+        <div class="flex flex-col min-h-[450px]">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 dark:text-slate-100">Expense Tracker App</div><hr>
+            <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2">
+              An expense tracker application that focuses on user convenience. This app is designed to simplify the process of tracking 
+              and analyzing expenditures, offering users an effortless way to gain insights into their financial habits. The application's 
+              user-friendly interface ensures a smooth navigation experience. <br>
+            </p>
+            <p class="text-sm dark:text-slate-200 font-semibold mt-5">User: user@gmail.com <br> Password: user</p>
+            <p class="text-sm dark:text-slate-200 font-semibold mt-5">
+              Tech used: Reactjs, Tailwindcss, Local Storage
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-6 self-start mt-auto">
+            <a href="https://main--expense-tracker-dlc.netlify.app/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/expense-tracker" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
         <div class="flex flex-col min-h-[450px]">
@@ -218,36 +258,6 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
-        <img class="w-full" src="../assets/todolist.jpg" alt="todo app">
-        <div class="flex flex-col min-h-[450px]">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 dark:text-slate-100">TodoList App</div><hr>
-            <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2"> 
-              This application revolves around a responsive and straightforward to-do list, focusing on basic CRUD operations for creating, 
-              updating, and deleting tasks with ease on any device.
-            </p>
-            <p class="text-sm font-semibold mt-5 dark:text-slate-200">
-              Tech used: Vuejs, Vuetify, Nuxtjs, Vuex, Local Storage
-            </p>
-          </div>
-          <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://todolistvuejs24.netlify.app" target="_blank" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
-              See Live
-              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-              </svg>
-            </a>
-            <a href="https://github.com/josephjrdlc21/ToDoList" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
-              Github
-              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
-              </svg>
-            </a>
-          </div> 
-        </div>
-      </div>
-
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible> 
         <img class="w-full" src="../assets/rikdo.jpg" alt="RIKDO dbms">
         <div class="flex flex-col min-h-[450px]">
@@ -276,6 +286,37 @@
               </svg>
             </a>
           </div>
+        </div>
+      </div>
+
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+        <img class="w-full" src="../assets/todolist.jpg" alt="todo app">
+        <div class="flex flex-col min-h-[450px]">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 dark:text-slate-100">TodoList App</div><hr>
+            <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2"> 
+              Centered on a responsive and straightforward to-do list, this application prioritizes basic CRUD operations, 
+              enabling users to effortlessly create, update, and delete tasks across various devices. The emphasis on simplicity 
+              ensures a user-friendly experience, allowing individuals to manage their to-do lists with ease.
+            </p>
+            <p class="text-sm font-semibold mt-5 dark:text-slate-200">
+              Tech used: Vuejs, Vuetify, Nuxtjs, Vuex, Local Storage
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-6 self-start mt-auto">
+            <a href="https://todolistvuejs24.netlify.app" target="_blank" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/ToDoList" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+          </div> 
         </div>
       </div>
 
@@ -340,7 +381,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+      <div v-if="isToggledProject" class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/audrino.jpg" alt="audrino">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -373,7 +414,7 @@
     </div>
   </section>
 
-  <section id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
+  <section v-if="!isToggledProject" id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
     <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-pop-visible>Experience / Education</h3>
     <div class="flex flex-col md:flex-row w-full gap-5">
       <ol class="md:w-1/2 relative border-s border-gray-800 dark:border-slate-200" v-motion-fade-visible>
@@ -458,7 +499,7 @@
     </div>
   </section>
 
-  <section id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
+  <section v-if="!isToggledProject" id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-slide-visible-top>Contact</h5>
     <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
       <div class="p-4">
@@ -586,10 +627,18 @@
         localStorage.setItem('darkMode', isDarkMode.value.toString());
       };
 
+      const isToggledProject = ref(false);
+
+      const showProject = () => {
+        isToggledProject.value = !isToggledProject.value;
+      };
+
       return {
         isScrolled,
         isDarkMode,
         toggleTheme,
+        isToggledProject,
+        showProject,
       };
     },
   }
