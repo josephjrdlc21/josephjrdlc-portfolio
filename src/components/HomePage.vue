@@ -259,7 +259,7 @@
       </div>
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible> 
-        <img class="w-full" src="../assets/rikdo.jpg" alt="RIKDO dbms">
+        <img class="w-full" src="../assets/dbms.png" alt="RIKDO dbms">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 dark:text-slate-100">Document Management System</div><hr>
