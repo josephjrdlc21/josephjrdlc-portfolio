@@ -227,28 +227,27 @@
       </div>
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
-        <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
+        <img class="w-full" src="../assets/able.png" alt="able">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 dark:text-slate-100">Budget Forecasting App</div><hr>
+            <div class="font-bold text-xl mb-2 dark:text-slate-100">Able Solutions Web</div><hr>
             <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2">
-              This application is a simulation tool designed for hoteliers, empowering them to make informed decisions by providing precise 
-              forecasts and enabling optimal pricing and revenue management strategies. By inputting anticipated revenue and expenses, the 
-              tool generates a comprehensive hotel budget simulation, including calculations for the number of rooms, occupancy rates, and 
-              average daily rates (ADR) on a monthly basis.
+              This website represents a distinguished RFID service provider, offering comprehensive solutions in attendance monitoring, 
+              student account management systems, and canteen management. It serves as a professional platform to showcase our expertise in these domains.
+              Note: This is not the actual website.
             </p>
-            <p class="text-sm dark:text-slate-200 font-semibold mt-5">
-              Tech used: Vuejs, Bootstrap, Javascript
+            <p class="text-sm font-semibold mt-5 dark:text-slate-100">
+              Tech used: Reactjs, Tailwindcss
             </p>
           </div>
           <div class="px-6 pt-4 pb-6 self-start mt-auto">
-            <a href="https://budgetforecast.netlify.app" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+            <a href="https://able-solutions-testver.netlify.app/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
               See Live
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </a>
-            <a href="https://github.com/josephjrdlc21/bezla-budget" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+            <a href="https://github.com/josephjrdlc21/able-solutions" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
               Github
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                 <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
@@ -280,6 +279,38 @@
               </svg>
             </a>
             <a href="https://github.com/josephjrdlc21/rikdo-dbms" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+        <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
+        <div class="flex flex-col min-h-[450px]">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 dark:text-slate-100">Budget Forecasting App</div><hr>
+            <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2">
+              This application is a simulation tool designed for hoteliers, empowering them to make informed decisions by providing precise 
+              forecasts and enabling optimal pricing and revenue management strategies. By inputting anticipated revenue and expenses, the 
+              tool generates a comprehensive hotel budget simulation, including calculations for the number of rooms, occupancy rates, and 
+              average daily rates (ADR) on a monthly basis.
+            </p>
+            <p class="text-sm dark:text-slate-200 font-semibold mt-5">
+              Tech used: Vuejs, Bootstrap, Javascript
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-6 self-start mt-auto">
+            <a href="https://budgetforecast.netlify.app" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/bezla-budget" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
               Github
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                 <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
@@ -350,7 +381,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+      <div v-if="isToggledProject" class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/crems.jpg" alt="crems">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -415,97 +446,100 @@
   </section>
 
   <section v-if="!isToggledProject" id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-pop-visible>Experience / Education</h3>
-    <div class="flex flex-col md:flex-row w-full gap-5">
-      <ol class="md:w-1/2 relative border-s border-gray-800 dark:border-slate-200" v-motion-fade-visible>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
-            <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
-            </div>
-          </div>
-          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
-            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">January 2024 - February 2024</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Developer</h3>
-            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Bezla.com LLC</h3>
-            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-              Key contributor to a hotel management app, developed Budget Simulation tool for informed decision-making. Led content creation using GoDaddy, 
-              contributing to blogs, video editing, Photoshop, and transcription for a compelling online presence.
-            </p>
-          </div>
-        </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
-            <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
-            </div>
-          </div>
-          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
-            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">June 2023 - December 2023</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Engineer</h3>
-            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Wistron InfoComm (Philippines)</h3>
-            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-              Design and develop Jigs & Fixture Management System implementation in Laravel, enhancing fixture tracking. Contributed to AOI research with Python programming 
-              for quality control. Developed automated cable switching using microcontroller tech for efficient testing.
-            </p>
-          </div>
-        </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
-            <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
-            </div>
-          </div>
-          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
-            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">July 2022 - December 2022</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">IT Programmer</h3>
-            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
-            <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
-              Led the design and development of a payroll system, and played a key role in implementing a LAN-based Student Government voting system. Managed 
-              network troubleshooting, installations, configurations, and provided solutions for enhanced system efficiency.
-            </p>
-          </div>
-        </li>
-      </ol>
-      <ol class="md:w-1/2 relative border-s border-gray-800 dark:border-slate-200" v-motion-fade-visible>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
-            <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
-            </div>
-          </div>
-          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
-            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2019 - June 2023</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Bachelor of Science in Information Technology</h3>
-            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Columban College, Inc.</h3>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
-              Awarded as <b>2nd Honorable Mention</b> and able to Design and Developed a Web-based Document Management System of 
-              Research, Innovation, and Knowledge Development Office - RIKDO of Columban College Inc. Olongapo City
-            </p>
-          </div>
-        </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-900 dark:bg-slate-300 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-slate-300">
-            <div class="animate-ping absolute w-full h-full bg-gray-800 dark:bg-slate-400 rounded-full border-gray-900 dark:border-slate-300">
-            </div>
-          </div>
-          <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto lg:h-56 w-full rounded-lg overflow-hidden p-3">
-            <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2013 - April 2019</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">JHS/Science, Technology, Engineering and Mathematics</h3>
-            <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
-              Awarded of the Gerry Roxas Leadership Award, I've served as President in diverse organizations, including Information Technology, Choir, and 
-              Team Captain for the Badminton Varsity team.
-            </p>
-          </div>
-        </li>
-      </ol>
+    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Experience / Education</h3>
+    
+    <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
+      <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">January 2024 - February 2024</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Developer</h3>
+        <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Bezla.com LLC</h3>
+        <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+          Key contributor to a hotel management app, developed Budget Simulation tool for informed decision-making. Led content creation using GoDaddy, 
+          contributing to blogs, video editing, Photoshop, and transcription for a compelling online presence.
+        </p>
+      </div>
+      <div class="divider-container flex flex-col items-center -mt-2">
+        <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10">
+          <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10 animate-ping"></div>
+        </div>
+        <div class="w-1 h-24 bg-gray-300 dark:bg-gray-500 rounded-full -mt-2"></div>
+      </div> 
     </div>
+    
+    <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
+      <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">June 2023 - December 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Software Engineer</h3>
+        <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Wistron InfoComm (Philippines)</h3>
+        <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+          Design and develop Jigs & Fixture Management System implementation in Laravel, enhancing fixture tracking. Contributed to AOI research with Python programming 
+          for quality control. Developed automated cable switching using microcontroller tech for efficient testing.
+        </p>
+      </div>
+      <div class="divider-container flex flex-col items-center -mt-2">
+        <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10">
+          <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10 animate-ping"></div>
+        </div>
+        <div class="w-1 h-24 bg-gray-300 dark:bg-gray-500 rounded-full -mt-2"></div>
+      </div> 
+    </div>   
+    
+    <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
+      <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">July 2022 - December 2022</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">IT Programmer</h3>
+        <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
+        <p class="mb-4 text-base font-normal text-gray-600 text-justify dark:text-slate-300">
+          Led the design and development of a payroll system, and played a key role in implementing a LAN-based Student Government voting system. Managed 
+          network troubleshooting, installations, configurations, and provided solutions for enhanced system efficiency.
+        </p>
+      </div>
+      <div class="divider-container flex flex-col items-center -mt-2">
+        <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10">
+          <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10 animate-ping"></div>
+        </div>
+        <div class="w-1 h-24 bg-gray-300 dark:bg-gray-500 rounded-full -mt-2"></div>
+      </div> 
+    </div>
+
+    <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
+      <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2019 - June 2023</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Bachelor of Science in Information Technology</h3>
+        <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Columban College, Inc.</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+          Awarded as <b>2nd Honorable Mention</b> and able to Design and Developed a Web-based Document Management System of 
+          Research, Innovation, and Knowledge Development Office - RIKDO of Columban College Inc. Olongapo City
+        </p>
+      </div>
+      <div class="divider-container flex flex-col items-center -mt-2">
+        <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10">
+          <div class="w-4 h-4 bg-black dark:bg-gray-300 rounded-full relative z-10 animate-ping"></div>
+        </div>
+        <div class="w-1 h-24 bg-gray-300 dark:bg-gray-500 rounded-full -mt-2"></div>
+      </div> 
+    </div>
+    
+    <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
+      <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2013 - April 2019</time>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">JHS/Science, Technology, Engineering and Mathematics</h3>
+        <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+          Awarded of the Gerry Roxas Leadership Award, I've served as President in diverse organizations, including Information Technology, Choir, and 
+          Team Captain for the Badminton Varsity team.
+        </p>
+      </div>
+    </div>  
   </section>
 
   <section v-if="!isToggledProject" id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
-    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-slide-visible-top>Contact</h5>
-    <div class="bg-white dark:bg-slate-600 shadow-md bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
+    <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Contact</h5>
+    <div class="bg-white max-w-5xl mx-auto dark:bg-slate-600 shadow-md bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
       <div class="p-4">
         <h5 class="text-center text-xl md:text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-fade-visible>Get in Touch, let's talk</h5>
-        <p class="text-center text-base md:text-lg mt-5 dark:text-slate-200">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
-        <p class="text-center text-base md:text-lg mt-5 dark:text-slate-200">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="font-semibold hover:underline dark:text-slate-200 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
+        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-200">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
+        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-200">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="hover:underline dark:text-slate-200 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
         <h3 class="text-lg md:text-xl font-semibold text-center mt-5 dark:text-slate-200">You can also find me on the following channel</h3>
         <div class="flex flex-row justify-center items-center gap-4 mt-3">
           <a href="https://twitter.com/JosephJr_DLC" target="_blank">
