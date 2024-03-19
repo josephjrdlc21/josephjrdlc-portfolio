@@ -34,7 +34,7 @@
         <svg v-else xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" class="w-5 h-5 text-yellow-500 dark:text-yellow-500"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
       </div>
     </nav>
-    <ul class="md:hidden flex flex-row justify-start items-center mt-5 mb-5">
+    <ul class="md:hidden flex flex-row justify-between items-center mt-5 mb-5">
       <li class="mr-6 font-medium"><a href="#about" class="hover:text-blue-800 dark:text-slate-200 dark:hover:text-blue-600">About</a></li>
       <li class="mr-6 font-medium"><a href="#projects" class="hover:text-blue-800 dark:text-slate-200 dark:hover:text-blue-600">Projects</a></li>
       <li class="mr-6 font-medium"><a href="#experience" class="hover:text-blue-800 dark:text-slate-200 dark:hover:text-blue-600">Experience</a></li>
@@ -289,7 +289,7 @@
       </div>
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
-        <img class="w-full" src="../assets/forecast.jpg" alt="forecast">
+        <img class="w-full" src="../assets/forecast.png" alt="forecast">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 dark:text-slate-100">Budget Forecasting App</div><hr>
@@ -321,7 +321,7 @@
       </div>
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
-        <img class="w-full" src="../assets/todolist.jpg" alt="todo app">
+        <img class="w-full" src="../assets/todolist.png" alt="todo app">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 dark:text-slate-100">TodoList App</div><hr>
@@ -446,7 +446,7 @@
   </section>
 
   <section v-if="!isToggledProject" id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Experience / Education</h3>
+    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Experience</h3>
     
     <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
       <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
@@ -507,7 +507,7 @@
         <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2019 - June 2023</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">Bachelor of Science in Information Technology</h3>
         <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Columban College, Inc.</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+        <p class="mb-4 text-base font-normal text-gray-500 text-justify dark:text-slate-300">
           Awarded as <b>2nd Honorable Mention</b> and able to Design and Developed a Web-based Document Management System of 
           Research, Innovation, and Knowledge Development Office - RIKDO of Columban College Inc. Olongapo City
         </p>
@@ -525,7 +525,7 @@
         <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">August 2013 - April 2019</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-slate-50">JHS/Science, Technology, Engineering and Mathematics</h3>
         <h3 class="text-base font-semibold text-gray-900 italic dark:text-slate-300">Saint Columban Montessori School</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-slate-300">
+        <p class="mb-4 text-base font-normal text-gray-500 text-justify dark:text-slate-300">
           Awarded of the Gerry Roxas Leadership Award, I've served as President in diverse organizations, including Information Technology, Choir, and 
           Team Captain for the Badminton Varsity team.
         </p>
@@ -535,11 +535,11 @@
 
   <section v-if="!isToggledProject" id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Contact</h5>
-    <div class="bg-white max-w-5xl mx-auto dark:bg-slate-600 shadow-md bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
+    <div class="bg-white max-w-5xl mx-auto dark:bg-slate-600 shadow-lg bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
       <div class="p-4">
         <h5 class="text-center text-xl md:text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-fade-visible>Get in Touch, let's talk</h5>
-        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-200">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
-        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-200">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="hover:underline dark:text-slate-200 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
+        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-300">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
+        <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-300">Email: <a href="mailto:josephdelacruzjr4@gmail.com" class="hover:underline dark:text-slate-300 dark:hover:underline">josephdelacruzjr4@gmail.com</a></p>
         <h3 class="text-lg md:text-xl font-semibold text-center mt-5 dark:text-slate-200">You can also find me on the following channel</h3>
         <div class="flex flex-row justify-center items-center gap-4 mt-3">
           <a href="https://twitter.com/JosephJr_DLC" target="_blank">
@@ -679,5 +679,7 @@
 </script>
 
 <style>
- 
+ html{
+  scroll-behavior: smooth;
+ }
 </style>
