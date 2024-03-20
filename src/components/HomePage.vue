@@ -289,6 +289,37 @@
       </div>
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+        <img class="w-full" src="../assets/quotes.png" alt="todo app">
+        <div class="flex flex-col min-h-[450px]">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 dark:text-slate-100">Quotes Generator</div><hr>
+            <p class="text-gray-700 dark:text-slate-200 text-base text-justify mt-2"> 
+              An application, a dynamic platform that effortlessly crafts wisdom from a plethora of renowned authors. Delve into a rich tapestry of thoughts 
+              and insights as our app automatically generates quotes, igniting inspiration from diverse perspectives. Let the words of esteemed authors 
+              resonate with you, enriching your journey with every click."
+            </p>
+            <p class="text-sm font-semibold mt-5 dark:text-slate-200">
+              Tech used: Reactjs, Tailwindcss
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-6 self-start mt-auto">
+            <a href="https://quotes-generator-dlc.netlify.app/" target="_blank" class="mt-auto inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800">
+              See Live
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+            <a href="https://github.com/josephjrdlc21/quotes-generator" target="_blank" class="ml-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-blue-800 text-white rounded-lg hover:bg-gray-700">
+              Github
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+          </div> 
+        </div>
+      </div>
+
+      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/forecast.png" alt="forecast">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
@@ -351,7 +382,7 @@
         </div>
       </div>
 
-      <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
+      <div v-if="isToggledProject" class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/aoi.jpg" alt="aoi">
         <div class="flex flex-col min-h-[450px]">
           <div class="px-6 py-4">
