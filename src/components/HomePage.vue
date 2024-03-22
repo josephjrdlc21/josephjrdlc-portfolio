@@ -56,9 +56,9 @@
         <p class="text-base md:text-xl text-justify leading-8 dark:text-slate-200">I'm a skilled and creative developer with a passion and dedication in 
           creating fully functional applications, responsive and user-friendly. I've worked on diverse projects ranging from web applications, 
           desktop applications, AI systems, and arduino.</p>
-        <div class="flex flex-col md:flex-row mt-5 lg:mt-10">
-          <a href="#contact" class="bg-blue-500 text-sm md:text-base hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0 md:mr-2">Get in touch</a>
-          <a href="resume.pdf" target="_blank" class="bg-transparent text-sm md:text-base hover:bg-blue-500 text-blue-700 dark:text-blue-400 font-semibold hover:text-white dark:hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Resume</a>
+        <div class="flex flex-col md:flex-row mt-6">
+          <a href="#contact" class="bg-blue-500 text-sm md:text-base hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-3xl mb-2 md:mb-0 md:mr-2">Get in touch</a>
+          <a href="resume.pdf" target="_blank" class="bg-[#FAFAFA] dark:bg-slate-800 text-sm md:text-base hover:bg-blue-500 text-blue-700 rounded-3xl dark:text-blue-400 font-semibold hover:text-white dark:hover:text-white py-2 px-4 border border-blue-500">Resume</a>
         </div>
       </div>
     </div>
@@ -566,7 +566,7 @@
 
   <section v-if="!isToggledProject" id="contact" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-20" style="max-width: 1280px;">
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Contact</h5>
-    <div class="bg-white max-w-5xl mx-auto dark:bg-slate-600 shadow-lg bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
+    <div class="bg-white max-w-4xl mx-auto dark:bg-slate-600 shadow-lg bg-clip-border h-auto md:h-72 w-full rounded-lg flex items-center justify-center overflow-hidden" v-motion-slide-visible-top>
       <div class="p-4">
         <h5 class="text-center text-xl md:text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200" v-motion-fade-visible>Get in Touch, let's talk</h5>
         <p class="text-center text-base md:text-lg mt-5 text-gray-600 dark:text-slate-300">If you are interested in hiring me for your projects. Please use my email to get in touch. </p>
@@ -599,7 +599,7 @@
     </div>
   </section>
 
-  <footer class="mt-10 md:mt-60 w-full h-32 bg-[#f2f2f2] dark:bg-slate-800 mx-auto px-4" style="max-width: 1280px;">
+  <footer class="mt-10 md:mt-60 w-full h-32 bg-[#FAFAFA] dark:bg-slate-800 mx-auto px-4" style="max-width: 1280px;">
     <div class="mt-4 border-t-2 border-white dark:border-slate-700 flex flex-col md:flex-row justify-between items-center gap-2">
       <div class="mt-5">
         <h3 class="font-semibold text-xl dark:text-slate-200">Joseph Dela Cruz Jr.</h3>

@@ -15,7 +15,7 @@ export default {
 
 <style>
   body{
-    background: #f2f2f2;
+    background: #FAFAFA;
     margin: 0;
   }
   #app{
