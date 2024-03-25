@@ -45,7 +45,7 @@
   <section v-if="!isToggledProject" id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mb-10 md:mb-0 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <div class="flex flex-col justify-between items-center gap-8">
       <div class="mx-auto" v-motion-slide-visible-left>
-        <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto h-[240px] w-[240px] md:w-[300px] md:h-[300px]">
+        <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto h-[240px] w-[240px] md:w-[250px] md:h-[250px] lg:w-[260px] lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]">
       </div>
       <div class="text-center mx-auto" v-motion-slide-visible-right>
         <div class="flex flex-row justify-center items-center mb-4 gap-2">
@@ -200,7 +200,7 @@
     <h5 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-pop-visible>Recent Projects</h5>
     <button @click="showProject" class="mx-auto block mb-10 border-b-2 border-gray-600 text-2xl font-semibold leading-snug tracking-normal dark:text-slate-200">View All</button>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-8">
 
       <div class="w-auto rounded-lg overflow-hidden shadow-lg bg-white dark:bg-slate-600" v-motion-pop-visible>
         <img class="w-full" src="../assets/tracker.png" alt="tracker">
