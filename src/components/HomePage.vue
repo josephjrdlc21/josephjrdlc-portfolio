@@ -44,7 +44,7 @@
 
   <section v-if="!isToggledProject" id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mb-10 md:mb-0 md:mt-40 lg:mt-0" style="max-width: 1280px;">
     <div class="flex flex-col justify-between items-center gap-8">
-      <div class="mx-auto" v-motion-slide-visible-left>
+      <div class="mx-auto">
         <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto cursor-pointer
         h-[240px] w-[240px] md:w-[250px] md:h-[250px] lg:w-[260px] 
         lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]" style="filter: drop-shadow(0 8px 12px rgba(43, 108, 176, 0.8));">
