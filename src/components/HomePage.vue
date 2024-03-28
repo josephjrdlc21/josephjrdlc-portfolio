@@ -43,10 +43,12 @@
   </header>
 
   <section v-if="!isToggledProject" id="home" class="h-auto lg:h-screen flex flex-col md:flex-row md:items-center mx-auto px-4 mb-10 md:mb-0 md:mt-40 lg:mt-0" style="max-width: 1280px;">
-    <div class="flex flex-col justify-between items-center gap-8">
+    <div class="flex flex-col justify-between items-center gap-8 relative">
+      <span class="absolute top-0 left-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
+      <span class="absolute bottom-0 right-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
       <div class="mx-auto">
         <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto cursor-pointer
-        h-[240px] w-[240px] md:w-[250px] md:h-[250px] lg:w-[260px] 
+        h-[220px] w-[220px] md:w-[250px] md:h-[250px] lg:w-[260px] 
         lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]" style="filter: drop-shadow(0 8px 12px rgba(43, 108, 176, 0.8));">
       </div>
       <div class="text-center mx-auto" v-motion-slide-visible-right>
@@ -486,9 +488,10 @@
     </div>
   </section>
 
-  <section v-if="!isToggledProject" id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10" style="max-width: 1280px;">
-    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Experience</h3>
-    
+  <section v-if="!isToggledProject" id="experience" class="h-auto mx-auto px-4 mt-10 md:mt-40 mb-10 relative" style="max-width: 1280px;">
+    <span class="absolute top-0 left-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
+    <span class="absolute bottom-0 right-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
+    <h3 class="text-center block mb-10 text-4xl font-semibold leading-snug tracking-normal text-blue-800 dark:text-blue-500" v-motion-fade-visible>Experience</h3> 
     <div class="grid grid-cols-1 max-w-3xl mx-auto" v-motion-pop-visible>
       <div class="relative p-4 rounded-lg shadow-lg bg-white dark:bg-slate-600 z-10 overflow-hidden">
         <time class="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-slate-400">January 2024 - February 2024</time>
@@ -662,7 +665,7 @@
       onMounted(() => {
         const savedDarkMode = localStorage.getItem('darkMode');
         if (savedDarkMode !== null) {
-          isDarkMode.value = savedDarkMode === 'true';
+          isDarkMode.value = savedDarkMode === 'false';
           document.documentElement.classList.toggle('dark', isDarkMode.value);
           const appDiv = document.getElementById('app');
           if (appDiv) {
