@@ -665,7 +665,7 @@
       onMounted(() => {
         const savedDarkMode = localStorage.getItem('darkMode');
         if (savedDarkMode !== null) {
-          isDarkMode.value = savedDarkMode === 'false';
+          isDarkMode.value = savedDarkMode === 'true';
           document.documentElement.classList.toggle('dark', isDarkMode.value);
           const appDiv = document.getElementById('app');
           if (appDiv) {
