@@ -663,22 +663,25 @@
       };
 
       onMounted(() => {
-        const savedDarkMode = localStorage.getItem('darkMode');
-        if (savedDarkMode !== null) {
-          isDarkMode.value = savedDarkMode === 'true';
-          document.documentElement.classList.toggle('dark', isDarkMode.value);
-          const appDiv = document.getElementById('app');
-          if (appDiv) {
-            if (isDarkMode.value) {
-              appDiv.classList.add('dark:bg-slate-800');
-              document.body.classList.add('dark:bg-slate-800');
-            } else {
-              appDiv.classList.remove('dark:bg-slate-800');
-              document.body.classList.remove('dark:bg-slate-800');
-            }
-            appDiv.classList.toggle('dark', isDarkMode.value);
-            document.body.classList.toggle('dark', isDarkMode.value);
+        let savedDarkMode = localStorage.getItem('darkMode');
+ 
+        if (savedDarkMode === null) {
+          savedDarkMode = 'true';
+          localStorage.setItem('darkMode', savedDarkMode);
+        }
+        isDarkMode.value = savedDarkMode === 'true';
+        document.documentElement.classList.toggle('dark', isDarkMode.value);
+        const appDiv = document.getElementById('app');
+        if (appDiv) {
+          if (isDarkMode.value) {
+            appDiv.classList.add('dark:bg-slate-800');
+            document.body.classList.add('dark:bg-slate-800');
+          } else {
+            appDiv.classList.remove('dark:bg-slate-800');
+            document.body.classList.remove('dark:bg-slate-800');
           }
+          appDiv.classList.toggle('dark', isDarkMode.value);
+          document.body.classList.toggle('dark', isDarkMode.value);
         }
         window.addEventListener('scroll', handleScroll);
       });
