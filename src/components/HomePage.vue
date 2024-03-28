@@ -47,7 +47,7 @@
       <span class="absolute top-0 left-0" style="box-shadow: 0 0 1000px 100px #1d4ed8;"></span>
       <span class="absolute bottom-0 right-0" style="box-shadow: 0 0 1000px 100px #1d4ed8;"></span>
       <div class="mx-auto" v-motion-fade-visible>
-        <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto cursor-pointer drop-shadow-2xl
+        <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto cursor-pointer
         h-[220px] w-[220px] md:w-[250px] md:h-[250px] lg:w-[260px] 
         lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]">
       </div>
