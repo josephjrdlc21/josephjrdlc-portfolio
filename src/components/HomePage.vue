@@ -46,12 +46,12 @@
     <div class="flex flex-col justify-between items-center gap-8 relative">
       <span class="absolute top-0 left-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
       <span class="absolute bottom-0 right-0" style="box-shadow: 0 0 1000px 70px #1d4ed8;"></span>
-      <div class="mx-auto">
+      <div class="mx-auto" v-motion-fade-visible>
         <img src="../assets/profile22.png" alt="Profile Image" class="mx-auto cursor-pointer
         h-[220px] w-[220px] md:w-[250px] md:h-[250px] lg:w-[260px] 
-        lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]" style="filter: drop-shadow(0 8px 12px rgba(43, 108, 176, 0.8));">
+        lg:h-[260px] xl:w-[270px] xl:h-[270px] 2xl:w-[300px] 2xl:h-[300px]" style="filter: drop-shadow(0 8px 12px rgba(43, 108, 176, 0.8)); -webkit-filter: drop-shadow(0 8px 12px rgba(43, 108, 176, 0.8));">
       </div>
-      <div class="text-center mx-auto" v-motion-slide-visible-right>
+      <div class="text-center mx-auto" v-motion-fade-visible>
         <div class="flex flex-row justify-center items-center mb-4 gap-2">
           <p class="text-lg md:text-xl font-medium dark:text-slate-200">Hello, <span class="text-blue-800 dark:text-blue-500">I'm</span></p>
           <div class="w-6 h-6">
